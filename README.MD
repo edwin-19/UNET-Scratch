@@ -3,6 +3,7 @@
 
 # TODO
 - [x] Mini Unet
+- [x] Evaluation Script Done
 - [ ] Inference Script
 - [ ] UNET
 - [ ] UNET Backbone
