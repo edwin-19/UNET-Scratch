@@ -16,9 +16,23 @@ def iou(gt_mask, pred_mask):
     return np.sum(intersection) / np.sum(union)
 ```
 
+# Example Inference
+To run the inference here's an example
+```python
+python demo.jpg --save
+```
+
+![example](results/demo.jpg)
+
 # TODO
 - [x] Mini Unet
 - [x] Evaluation Script
-- [ ] Inference Script
-- [ ] UNET
+- [x] Inference Script
+- [x] UNET
 - [ ] UNET Backbone
+
+# Model Comparison
+| Model Name | Class 1 | Class 2 | Class 3 |
+|------------|---------|---------|---------|
+| Mini UNET  | 34.17   | 58.18   | 7.38    |
+| UNET Plain | 73.63   | 82.83   | 39.4    |
