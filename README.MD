@@ -38,4 +38,7 @@ python demo.jpg --save
 | UNET Plain | 73.63   | 82.83   | 39.4    |
 
 # Model Download
-TBA
+| Model Name | Link                                                                               |
+|------------|------------------------------------------------------------------------------------|
+| MiniUNET   | https://drive.google.com/file/d/1OO_8ur-DG_5MZQ9Rd9MZfNjOIsKnWJHe/view?usp=sharing |
+| UNET Plain | https://drive.google.com/file/d/1z6KR-jar-iXGX-f3Ywdw6sWJ7FF6Knak/view?usp=sharing |

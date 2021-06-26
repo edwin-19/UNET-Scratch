@@ -50,7 +50,6 @@ if __name__ == '__main__':
         tf.keras.preprocessing.image.save_img(
             'results/demo.jpg', preds_gt
         )
-
     
     if args.show:
         plt.imshow(preds_gt)
